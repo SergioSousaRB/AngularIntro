@@ -1,6 +1,10 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterModule } from '@angular/router';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
